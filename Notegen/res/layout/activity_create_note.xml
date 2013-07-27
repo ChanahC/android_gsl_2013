@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical" >
+	<RelativeLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="20dp" >
+		<ImageView android:id="@+id/meme_image"
+		    android:src="@drawable/meme"
+			android:layout_width="320dp"
+			android:layout_height="320dp"
+			android:layout_centerInParent="true"
+			android:scaleType="centerCrop" />
+
+		<TextView
+		    android:id="@+id/note_text"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_alignParentTop="true"
+		    android:paddingTop="10dp"
+		    android:shadowColor="#000000"
+		    android:shadowDx="1"
+		    android:shadowDy="1"
+		    android:shadowRadius="2"
+		    android:text="Glad to be at CS197!"
+		    android:textColor="#FFAAFF"
+		    android:textIsSelectable="true"
+		    android:textSize="32sp"
+		    android:textStyle="bold" />
+	</RelativeLayout>
+	<Button
+			android:id="@+id/view_note_button"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/click_to_view_note" />
+</LinearLayout>
