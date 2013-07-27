@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, ParseStarterProjectActivity!</string>
+    <string name="app_name">ParseStarterProject</string>
+    <string-array name="shopping_array">
+		<item>Soy Milk</item>
+		<item>Oatmeal</item>
+		<item>Soup</item>
+		<item>Coffee</item>
+	</string-array>
+	<string name="add_item_hint">add a new item to your list</string>
+</resources>
